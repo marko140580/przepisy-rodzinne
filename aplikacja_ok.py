@@ -98,7 +98,7 @@ st.title("🍲 Menedżer Przepisów Social Media Online")
 # POPRAWIONO: Link wpisany na sztywno, bez możliwości pomyłki serwera
 with st.expander("🔗 Udostępnij tę aplikację rodzinie!", expanded=False):
     st.write("Skopiuj poniższy link i wyślij go bliskim:")
-    st.code("https://streamlit.app", language="text")
+    st.code("https://przepisy-rodziny.streamlit.app/", language="text")
 
 st.write("---")
 
