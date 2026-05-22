@@ -93,7 +93,7 @@ def okno_edycji(przepis_id):
                 st.error("Błąd zapisu w Arkuszu. Sprawdź uprawnienia udostępniania!")
 
 # INTERFEJS STRONY
-st.title("🍲 Menedżer Przepisów Social Media Online")
+st.title("🍲 Menedżer Przepisów Karolczak")
 
 # POPRAWIONO: Link wpisany na sztywno, bez możliwości pomyłki serwera
 with st.expander("🔗 Udostępnij tę aplikację rodzinie!", expanded=False):
