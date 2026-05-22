@@ -183,5 +183,3 @@ else:
                 with c_b3:
                     if st.button("🗑️ Usuń", key=f"d_{przepis['id']}", type="secondary", width="stretch"):
                         st.session_state.przepisy = [x for x in st.session_state.przepisy if x["id"] != przepis["id"]]
-                        zapisz_dane_do_arkusza(st.session_state.przepisy)
-                        st.rerun()
